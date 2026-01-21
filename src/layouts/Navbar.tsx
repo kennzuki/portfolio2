@@ -1,3 +1,5 @@
+import Buttons from "../components/Buttons";
+
 export default function Navbar() {
   const links = [
     { href: '#', text: 'Home' },
@@ -18,6 +20,8 @@ export default function Navbar() {
             <a className="px-4 py-2 text-muted-foreground hover:text-foreground" href={link.href}>{link.text}</a>
           ))}
         </section>
+        {/* cta */}
+        <Buttons size='sm' className="px-4 py-2">Contact me</Buttons>
       </div>
       {/* mobile nav */}
       <div className=''></div>
