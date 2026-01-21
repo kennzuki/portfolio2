@@ -1,3 +1,8 @@
+import About from "./components/About"
+import Contact from "./components/Contact"
+import Experience from "./components/Experience"
+import Hero from "./components/Hero"
+import Projects from "./components/Projects"
 
 
 function App() {
@@ -5,7 +10,11 @@ function App() {
 
   return (
     <main>
-      <h1 className="text-xl text-red-500">ken</h1>
+      <Hero />
+      <About />
+      <Projects />
+      <Experience />
+      <Contact/>
    </main>
   )
 }
