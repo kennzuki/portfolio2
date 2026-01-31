@@ -32,12 +32,12 @@ export default function Experience() {
   
   ]
   return (
-    <section className="glass rounded-full px-2 py-5 flex flex-col items-center gap-1 space-y-4 capitalize">
+    <section className="glass rounded-xl px-2 py-5 flex flex-col items-center gap-1 space-y-4 capitalize mb-8">
       <h2 className="text-primary  text-2xl">Text stack & expertise</h2>
       <p className="">technologies i work with to build projects and products</p>
       <article className="grid md:grid-cols-3 items-center gap-4 p-8 text-xl">
       { techs.map((tech) => (
-        <article className="flex flex-col items-center gap-2 glass rounded-xl py-2 px-4 shadow-xl shadow-primary hover:scale-105 hover:glass">
+        <article className="flex flex-col items-center gap-2 bg- glass rounded-xl py-2 px-4 shadow-xl shadow-primary hover:scale-105 hover:glass">
           {tech.icon}
           <span>{tech.name}</span>
         </article>
