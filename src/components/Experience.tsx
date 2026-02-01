@@ -3,7 +3,7 @@ import { SiPostgresql, SiReact,SiTailwindcss,SiTypescript, SiNextdotjs, SiPrisma
 export default function Experience() {
   const techs = [
     {
-      icon: <SiPostgresql />,
+      icon: <SiPostgresql/>,
       name: "PostgreSQL",
     },
     {icon: <SiReact />,
